@@ -1,0 +1,42 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  margin: 20px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid #115ff4;
+  padding: 15px 25px;
+  min-width: 100px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+}
+
+th {
+  background-color: #115ff4;
+  color: white;
+}
+
+td {
+  background-color: #28a200;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+td.viewed {
+  background-color: #8d2ab5;
+  text-decoration: line-through;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
